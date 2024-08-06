@@ -5,7 +5,7 @@
         <div class="row justify-content-center">
             <div class="col-md-8">
                 <div class="card">
-                    <div class="card-header">{{ __('Index') }}</div>
+                    <div class="card-header">{{ __('Show') }}</div>
 
                     <div class="card-body">
                         @if (session('status'))
@@ -14,8 +14,7 @@
                             </div>
                         @endif
 
-                        {{ __('You are logged in Index Page!') }}
-                        <a href="{{ route('admin.projects.show') }}" class="btn btn-primary">Show</a>
+                        {{ __('You are logged in Show Page!') }}
                     </div>
                 </div>
             </div>
